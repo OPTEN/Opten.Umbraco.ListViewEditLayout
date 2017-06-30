@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>Opten.Umbraco.ListViewEditLayout</id>
+		<version></version>
+		<title>Opten.Umbraco.ListViewEditLayout</title>
+		<authors>OPTEN AG</authors>
+		<owners>OPTEN AG</owners>
+		<projectUrl>https://github.com/OPTEN/Opten.Umbraco.ListViewEditLayout</projectUrl>
+		<description><![CDATA[An umbraco backoffice listview layout to directly edit child nodes   ]]></description>
+		<iconUrl>http://www.opten.ch/nuget/logo.png</iconUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<releaseNotes></releaseNotes>
+		<tags>opten</tags>
+		<dependencies></dependencies>
+	</metadata>
+	<files>
+		<file src="src\Opten.Umbraco.ListViewEditLayout.Web.UI\App_Plugins\OPTEN.ListViewEditLayout\**\*.*" target="content\App_Plugins\OPTEN.ListViewEditLayout" />
+	</files>
+</package>
