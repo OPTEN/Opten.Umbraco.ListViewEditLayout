@@ -3,19 +3,6 @@
 
 	function ListViewEditLayout($scope, iconHelper, listViewHelper, $location, $http) {
 
-		function activate() {
-			for (var i = 0; i < $scope.items.length; i++) {
-				$scope.items[i].preview = false;
-				$http.get("/umbraco/ListViewEditLayout/ContentRender/index/" + $scope.items[i].id).then(createUpdateItem(i));
-			}
-		}
-
-		function createUpdateItem(index) {
-			return function (response) {
-				$scope.items[index].preview = response.data;
-			};
-		}
-
 		$scope.clickItem = function (selectedItem, $index, $event) {
 			listViewHelper.selectHandler(selectedItem, $index, $scope.items, $scope.selection, $event);
 		};
@@ -29,8 +16,6 @@
 				return sel.id === entry.id;
 			});
 		};
-
-		activate();
 	}
 
 	angular.module("umbraco").controller("OPTEN.ListViewEditLayout", ListViewEditLayout);

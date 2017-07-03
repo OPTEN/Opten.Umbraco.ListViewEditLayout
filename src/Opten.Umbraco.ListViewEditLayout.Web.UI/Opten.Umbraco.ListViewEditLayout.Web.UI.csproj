@@ -150,9 +150,6 @@
     <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Our.Umbraco.NestedContent, Version=0.4.6286.19708, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Our.Umbraco.NestedContent.0.4.0\lib\net45\Our.Umbraco.NestedContent.dll</HintPath>
-    </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
     </Reference>
@@ -253,14 +250,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Plugins\NestedContent\Css\nestedcontent.css" />
-    <Content Include="App_Plugins\NestedContent\Js\nestedcontent.controllers.js" />
-    <Content Include="App_Plugins\NestedContent\Js\nestedcontent.directives.js" />
-    <Content Include="App_Plugins\NestedContent\Js\nestedcontent.filters.js" />
-    <Content Include="App_Plugins\NestedContent\Js\nestedcontent.resources.js" />
-    <Content Include="App_Plugins\NestedContent\Views\nestedcontent.doctypepicker.html" />
-    <Content Include="App_Plugins\NestedContent\Views\nestedcontent.editor.html" />
-    <Content Include="App_Plugins\NestedContent\Views\nestedcontent.html" />
     <Content Include="App_Plugins\OPTEN.ListViewEditLayout\listvieweditlayout.controller.js" />
     <Content Include="App_Plugins\OPTEN.ListViewEditLayout\listvieweditlayout.css" />
     <Content Include="App_Plugins\OPTEN.ListViewEditLayout\listvieweditlayout.html" />
@@ -300,7 +289,6 @@
     <Content Include="config\404handlers.config" />
     <Content Include="App_Plugins\OPTEN.ListViewEditLayout\package.manifest" />
     <Content Include="Views\TextPage.cshtml" />
-    <Content Include="App_Plugins\NestedContent\package.manifest" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
